@@ -6,3 +6,6 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
+TIL 시작!
+눈물겨운 블로그 배포기...
+왜 적용이 안되지??
