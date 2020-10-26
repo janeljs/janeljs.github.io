@@ -1,6 +1,6 @@
 module.exports = {
   title: `Jane's Devlog`,
-  description: `Blog posted about ...`,
+  description: `커피 한 잔 하며 읽기 좋은 블로그`,
   author: `[Jisun Lim]`,
   introduction: `Carpe diem`,
   siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
