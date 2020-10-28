@@ -6,6 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
+<<<<<<< Updated upstream
 # Timeline
 
 ---
@@ -252,3 +253,11 @@ def bufbble_sort(list):
 >>> list(range(5, 10))
 [5, 6, 7, 8, 9]
 ```
+=======
+TIL 시작!
+눈물겨운 블로그 배포기...
+왜 적용이 안되지??
+
+gatsby 블로그 만들기
+github action으로 배포 자동화
+>>>>>>> Stashed changes

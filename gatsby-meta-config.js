@@ -3,7 +3,7 @@ module.exports = {
   description: `커피 한 잔 하며 읽기 좋은 블로그`,
   author: `[Jisun Lim]`,
   introduction: `Carpe diem`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://janeljs.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `https://github.com/janeljs`, // Your GitHub account
@@ -15,7 +15,7 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'janeljs/janeljs.github.io', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
