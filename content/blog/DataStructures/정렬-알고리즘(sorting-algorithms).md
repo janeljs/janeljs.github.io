@@ -1,5 +1,5 @@
 ---
-title: 정렬 알고리즘(Sorting Algorithms)
+title: 정렬 알고리즘(Sorting algorithms)
 date: 2020-10-28 21:10:53
 category: datastructures
 thumbnail: { thumbnailSrc }
@@ -10,6 +10,7 @@ draft: false
 문제를 해결하는(특정 연산을 풀어나가는) 절차
 
 - 패스쓰루(passthrough): 알고리즘의 주요 단계들을 통과했다는 의미
+
 
 ## 버블 정렬
 
@@ -51,6 +52,7 @@ def bufbble_sort(list):
 >>> list(range(5, 10))
 [5, 6, 7, 8, 9]
 ```
+
 
 ## 선택 정렬
 
@@ -95,6 +97,7 @@ function selectionSort(array) {
   return array;
 }
 ```
+
 
 ## 삽입 정렬
 
