@@ -31,8 +31,12 @@ draft: false
     - 결과적으로 O(N)
 - 활용
     - 같은 전화번호가 존재하면 안 되는 전화번호부 관리
-    
+
 
 **삭제**
 
 - O(N)
+
+#
+
+Source: A Common-Sense Guide to Data Structures and Algorithms

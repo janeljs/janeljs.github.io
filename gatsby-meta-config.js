@@ -6,9 +6,9 @@ module.exports = {
   siteUrl: `https://janeljs.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/janeljs`, // Your GitHub account
+    github: `janeljs`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: `https://www.facebook.com/jisun153`, // Your Facebook account
+    facebook: `jisun153`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
