@@ -16,19 +16,26 @@ draft: false
 
 각 패스쓰루마다 정렬되지 않은 값 중 가장 큰 값에 해당하는 버블을 올바른 위치로 정렬
 
+<br/>
+
 **연산**
 
 - 비교: (N-1)+(N-2)+ ... + 1
 - 교환(swap): 최악의 경우 (N-1)+(N-2)+ ... + 1
 
+<br/>
+
 **시간복잡도**
 
 $O(N^2)$
 
+<br/>
+
+
 **구현**
 
 ```python
-def bufbble_sort(list):
+def bubble_sort(list):
 	unsorted_until_index = len(list) - 1
 	sorted = False
 	
@@ -54,6 +61,8 @@ def bufbble_sort(list):
 ```
 
 
+<br/>
+
 ## 선택 정렬
 
 **passthrough**
@@ -63,6 +72,8 @@ def bufbble_sort(list):
 
 전체가 정렬될 때까지 passthrough를 반복
 
+<br/>
+
 **연산**
 
 - 비교: (N-1)+(N-2)+ ... + 1
@@ -71,6 +82,8 @@ def bufbble_sort(list):
     - 버블 정렬보다 교환 횟수가 훨씬 적다.
 
 💡 선택 정렬이 버블 정렬보다 두 배 더 빠르다. 
+
+<br/>
 
 **시간복잡도**
 
@@ -110,6 +123,8 @@ function selectionSort(array) {
 
 전체가 정렬될 때까지 passthrough 반복
 
+<br/>
+
 **연산**
 
 - 비교: 1+2+3+ ... + n-1
@@ -119,6 +134,9 @@ function selectionSort(array) {
 - 삽입: n-1
 
 ➡ 합: $n^2 + 2n  -2$
+
+<br/>
+
 
 **시간복잡도**
 
@@ -140,6 +158,8 @@ def insertion_sort(array):
      array[position] = temp_value
 ```
 
+<br/>
+
 
 ### ❓ 최악이 아닌 평균적인 시나리오를 고려한다면
 
@@ -149,10 +169,14 @@ def insertion_sort(array):
 - 평균 $n^2 / 2$
 - 최선 $n$
 
+<br/>
+
 **선택정렬**
 
 - 최악, 평균, 최선 $n^2 / 2$
     - 특정 시점에 미리 passthrough를 중단할 수 없기 때문
+
+<br/>
 
 💡 따라서 무조건 최악의 시나리오만 고려할 것이 아니라 데이터의 수에 따라 가장 효율적인 알고리즘을 선택해야 한다.
 

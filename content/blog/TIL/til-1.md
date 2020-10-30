@@ -1,5 +1,5 @@
 ---
-title: 🏷️ TIL 1
+title: 📕 TIL 1
 date: 2020-10-30 13:10:23
 category: TIL
 thumbnail: { thumbnailSrc }
