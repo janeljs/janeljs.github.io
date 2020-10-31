@@ -27,28 +27,30 @@ draft: false
 -   사이즈가 미리 정해지지 않고 현재 element의 수에 비례하여 space 사용
 -   head에 element 삽입하기 쉬움
 
+<br/>
 
 ### Traversing ( = link hopping, pointer hopping)
 
 -   head에서부터 한 노드씩 이동
 -   다음 참조값으로 null이 나오면 tail
 
-이렇게 한 칸 씩 traversing 하는 것을 피하고 싶으면 노드 전체의 수를 세는 카운터 인스턴스를 만드는 것이 좋다.
+💡 이렇게 한 칸 씩 traversing 하는 것을 피하고 싶으면 노드 전체의 수를 세는 카운터 인스턴스를 만드는 것이 좋다.
 
+<br/>
 
 ### Singly linked list 헤드에 삽입하기
 
 **노드 삽입 순서**
 
-새로운 노드 생성
+1. 새로운 노드 생성
 
-⇒ element에 새로운 element 배정
+2. element에 새로운 element 배정
 
-⇒ 현재 head를 참조하기 위한 link 생성
+3. 현재 head를 참조하기 위한 link 생성
 
-⇒ 리스트의 head로 새로운 노드를 가리킴
+4. 리스트의 head로 새로운 노드를 가리킴
 
-(만약 리스트가 비어있었다면 새로운 노드의 다음 참조값은 null로 설정된다.)
+💡 만약 리스트가 비어있었다면 새로운 노드의 다음 참조값은 null로 설정된다.
 
 
 ```
@@ -59,20 +61,22 @@ addFirst(e):
     size = size + 1        // 노드 카운트 증가
 ```
 
+<br/>
+
 ### Singly linked list 꼬리에 삽입하기
 
 **노드 삽입 순서**
 
-새로운 노드 생성
+1. 새로운 노드 생성
 
-⇒ 다음 참조값을 null로 설정
+2. 다음 참조값을 null로 설정
 
-⇒ tail의 참조값을 새로운 노드로 설정
+3. tail의 참조값을 새로운 노드로 설정
 
-⇒ 리스트의 tail을 새 노드로 갱신
+4. 리스트의 tail을 새 노드로 갱신
 
 
-```
+```sh
 addLast(e):
     newest = Node(e)       // 새로운 노드 생성
     newest.next = null     // 새 노드의 포인터를 null로 설정
@@ -81,12 +85,13 @@ addLast(e):
     size = size + 1        // 노드 카운트 증가
 ```
 
+<br/>
 
 ### Singly linked list에서 element 삭제하기
 
 단일 연결 리스트에서 맨 처음 항목을 삭제하고 싶다면 헤드에 새로운 element를 삽입했던 과정을 반대로 수행하면 된다.
 
-```
+```sh
 removeFirst():
     if head == null then
         the list is empty.
@@ -94,7 +99,12 @@ removeFirst():
     size = size - 1
 ```
 
-그러나 마지막 node를 삭제하기 위해서는 head부터 traversing을 수행해 tail 전 노드로 이동해야 하기 때문에 많은 시간이 소요된다. 이러한 단점을 보완한 자료구조로는 **`doubly linked list`**가 있다.
+ 그러나 마지막 node를 삭제하기 위해서는 head부터 traversing을 수행해 tail 전 노드로 이동해야 하기 때문에 많은 시간이 소요된다는 단점이 있다. 
+<br/>
+
+ 💡 한편, **한 리스트 안에서 많은 원소를 삭제**해야 될 때는 연결리스트가 매우 유용하다. 배열의 경우 데이터를 삭제할 때마다 이동해줘야 하지만 연결리스트의 경우 리스트 전체를 순회하면서 노드의 링크만 바꿔주면 된다. 다시 말하면 1000개의 노드 중 100개를 삭제하고 싶다면 1000개의 읽기 단계와 100개의 삭제 단계를 합쳐서 총 1100단계 안에 작업을 마칠 수 있는 것이다. 
+
+
 
 ## Singly linked list 구현하기
 
@@ -177,4 +187,5 @@ public class SinglyLinkedList<E> {
 
 #
 
-Source: Data Structures and Algorithms in Java
+***Source***
+Data Structures and Algorithms in Java

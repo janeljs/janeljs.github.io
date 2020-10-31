@@ -1,18 +1,18 @@
 ---
-title: "[DS] 정렬 알고리즘(Bubble sort, Selection sort, Insertion sort)"
+title: "기본 정렬 알고리즘(Basic sorting algorithms)"
 date: 2020-10-30 13:10:01
 category: algorithms
 thumbnail: { thumbnailSrc }
 draft: false
 ---
-## 알고리즘
+## 알고리즘(Algorithm)
 
 문제를 해결하는(특정 연산을 풀어나가는) 절차
 
 - 패스쓰루(passthrough): 알고리즘의 주요 단계들을 통과했다는 의미
 
 
-## 버블 정렬
+## 버블 정렬(Bubble sort)
 
 각 패스쓰루마다 정렬되지 않은 값 중 가장 큰 값에 해당하는 버블을 올바른 위치로 정렬
 
@@ -48,27 +48,14 @@ def bubble_sort(list):
 		unsorted_until_index = unsorted_until_index - 1
 ```
 
-💡참고: 파이썬 기본 문법
-
-```python
-# 인수 1개: 0부터 n까지
->>> list(range(5))
-[0, 1, 2, 3, 4]
-
-# 인수 2개: 시작 숫자에서 끝 숫자 하나 전까지
->>> list(range(5, 10))
-[5, 6, 7, 8, 9]
-```
 
 
-<br/>
-
-## 선택 정렬
+## 선택 정렬(Selection sort)
 
 **passthrough**
 
-- 배열의 왼쪽부터 오른쪽까지 확인하면서 최솟값 결정
-- 최솟값과 passthrough를 시작한 값 교환
+1. 배열의 왼쪽부터 오른쪽까지 확인하면서 최솟값 결정
+2. 최솟값과 passthrough를 시작한 값 교환
 
 전체가 정렬될 때까지 passthrough를 반복
 
@@ -112,14 +99,14 @@ function selectionSort(array) {
 ```
 
 
-## 삽입 정렬
+## 삽입 정렬(Insertion sort)
 
 **paththrough**
 
-- 인덱스 1의 값을 삭제한 뒤 이 값을 임시 변수에 저장
-- 공백 왼 쪽의 값과 임시 변수 값 비교
-- 왼쪽에 있는 값이 임시 변수보다 크면 한 칸 오른쪽으로 이동, 같으면 그대로 둠
-- 임시변수에 있는 값 현재 공백에 삽입
+1. 인덱스 1의 값을 삭제한 뒤 이 값을 임시 변수에 저장
+2. 공백 왼 쪽의 값과 임시 변수 값 비교
+3. 왼쪽에 있는 값이 임시 변수보다 크면 한 칸 오른쪽으로 이동, 같으면 그대로 둠
+4. 임시변수에 있는 값 현재 공백에 삽입
 
 전체가 정렬될 때까지 passthrough 반복
 
@@ -133,7 +120,7 @@ function selectionSort(array) {
 - 삭제: passthrough 당 한 번 = n-1
 - 삽입: n-1
 
-➡ 합: $n^2 + 2n  -2$
+	➡ sum =  $n^2 + 2n  -2$
 
 <br/>
 
@@ -197,3 +184,8 @@ function intersection(first_array, second_array){
 ```
 
 💡 worstcase의 시간복잡도가 똑같다고 하더라도 최대한 연산 횟수를 줄이는 알고리즘을 짜야 한다.
+
+#
+***Source***
+
+A Common-Sense Guide to Data Structures and Algorithms

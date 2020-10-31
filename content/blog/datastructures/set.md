@@ -5,19 +5,24 @@ category: datastructures
 thumbnail: { thumbnailSrc }
 draft: false
 ---
-## 집합
+## 집합(Set)
 
 중복값을 허용하지 않는 자료구조
+
+<br/>
 
 **읽기**
 
 - O(1)
 
+<br/>
 
 **검색**
 
 - O(N)
 
+
+<br/>
 
 **삽입**
 
@@ -32,6 +37,8 @@ draft: false
 - 활용
     - 같은 전화번호가 존재하면 안 되는 전화번호부 관리
 
+
+<br/>
 
 **삭제**
 

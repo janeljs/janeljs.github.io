@@ -5,7 +5,7 @@ category: datastructures
 thumbnail: { thumbnailSrc }
 draft: false
 ---
-## 해시 테이블
+## 해시 테이블(Hash table)
 
 - 쌍으로 이뤄진 값들의 리스트
 - key와 value로 구성
@@ -114,4 +114,5 @@ function countVotes() {
 ```
 #
 
-Source: A Common-Sense Guide to Data Structures and Algorithms
+***Source***  
+A Common-Sense Guide to Data Structures and Algorithms
