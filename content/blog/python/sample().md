@@ -15,7 +15,7 @@ draft: false
 ## 사용 방법
 
 ```python
-random.sample(*sequence*, *k*)
+random.sample(sequence, k)
 ```
 
 sequence: 리스트, 집합, range() 등 random의 범위가 될 sequence 입력
