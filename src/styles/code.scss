@@ -2,7 +2,7 @@
  * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
  * Based on https://github.com/chriskempson/tomorrow-theme
  * @author Rose Pritchard
- * @custoimized by Jbee
+ * @custoimized by janeljs
  */
 
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
@@ -49,6 +49,11 @@ pre[class*='language-'] {
   overflow: -moz-scrollbars-none; // Firefox
 }
 
+code {
+  white-space : pre-wrap !important;
+}
+
+/* auto line change*/
 pre[class*='language-']::-webkit-scrollbar {
   display: none; // Safari and Chrome
 }

@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 ## 📚 This Week I Learned
-![ ](./images/study.gif)
+
 
 이번주부터 **TWIL**을 기록하기로 했다. **TWIL**은 **This Week I Learned**의 약자로 한 주간 배운 내용을 돌아보며 매주 간단한 회고록을 작성하는 것이다. 보통 개발자들의 기술블로그를 보면 **TIL(Today I Learned)**라고 해서 하루 동안 배운 내용을 정리하지만, 매일 무언가를 기록해야 한다는 강박이 생기면 글 쓰는게 재미없어지고 결국 오래하지 못할 것이라는 생각에 **TIL** 대신 **TWIL**을 작성하기로 했다.   
 

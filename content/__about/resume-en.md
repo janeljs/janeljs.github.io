@@ -4,13 +4,13 @@ date: 2019-1-27 16:21:13
 lang: 'en'
 ---
 
-# 🙋🏻‍♀️ 임지선(janeljs)
+# 임지선(janeljs)
 
 
 
 <div align="center">
 
-![ ](./images/study.gif)
+
 
 <br/> 
 
