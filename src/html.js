@@ -13,7 +13,6 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"
           />
           {this.props.headComponents}
-          <meta name="msvalidate.01" content="4EA473EFCEF0788D9B1459A98D44C99B" />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
