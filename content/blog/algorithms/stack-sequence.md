@@ -28,15 +28,81 @@ draft: false
 
 ```python
 
+n = int(input()) 
+s_sq = [] 
+stack_list = []
+result = []
+status = True
 
+for x in range(0, n):
+    s_sq.append(int(input()))
+
+def isEmpty():
+    if len(stack_list) == 0:
+        return True
+    
+idx = 0
+i = 1
+while(i <= n):
+    if i <= s_sq[idx]:
+        stack_list.append(i)
+        result.append("+")
+        i +=1
+    elif i > s_sq[idx]:
+        stack_list.pop()
+        result.append("-")
+        idx += 1
+        
+stack_list.pop()
+result.append("-")
+
+for num in range(0, len(stack_list)-1):
+    if s_sq[-1-num] != stack_list[num] :
+        result = "NO"
+        status = False
+        break
+        
+while(status and not isEmpty()):
+    stack_list.pop()
+    result.append("-")
+
+if (status):
+    print('\n'.join(result))
+else:
+    print(result)
 ```
+
+
 ## Feedback
-- 추천 풀이 시간: 
-- 소요 시간:   
+
+위의 나의 코드는 결과값은 제대로 잘 나오는데 `출력 초과`가 떴고 코드도 총체적 난국이다.
+이곳저곳 고쳐보다가 포기했다. 결과는 제대로 나오는데 왜 출력 초과가 뜨는지 모르겠다.
+앞으로는 주먹 구구식으로 결과값 나오는데만 집중하지 말고 전체적인 알고리즘을 먼저 수도코드로 작성한 뒤 코드로 구현해야겠다. 실력이 더 성장한다음 다시 풀어봐야지...
+- 수도코드 먼저 작성하자
+- 반복문 남용하지 말자
+- 결과값이 안 나올 때는 전체적인 로직을 봐야지 주먹구구식으로 결과값에만 맞춘 코딩을 하면 안 된다. 
 
 ```python
-# 주석은 더 나은 풀이와 제 풀이의 차이점을 기록합니다. 
+n = int(input())
 
+count = 1
+stack = []
+result = []
+
+for i in range(1, n + 1): 
+    data = int(input())
+    while count <= data: 
+        stack.append(count)
+        count += 1
+        result.append('+')
+    if stack[-1] == data: 
+        stack.pop()
+        result.append('-')
+    else: 
+        print('NO')
+        exit(0)
+        
+print('\n'.join(result)) 
 
 ```
 

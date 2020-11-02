@@ -106,7 +106,7 @@ removeFirst():
 
 
 
-## Singly linked list 구현하기
+## 구현
 
 연결 리스트를 구현에는 **_generic framework_**와 **_nested class_**가 사용된다.
 
