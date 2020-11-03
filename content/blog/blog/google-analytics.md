@@ -14,7 +14,7 @@ draft: false
 4. 내 Google Analytics 사이트에서 dashboard 확인하기 
 
 ## gatsby-plugin-gtag 플러그인 설치
-1. shell에서 npm 명령어 실행 
+1. git bash에서 npm 명령어 실행 
 
 ```bash
 npm install --save gatsby-plugin-gtag
@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: `UA-XXXXXXXX-X`, # 측정 ID
-        head: false, # head에 tracking script를 넣고 싶다면 true로 변경 
+        trackingId: `UA-XXXXXXXX-X`, // 측정 ID
+        head: false, // head에 tracking script를 넣고 싶다면 true로 변경 
         anonymize: true,
       },
     },
