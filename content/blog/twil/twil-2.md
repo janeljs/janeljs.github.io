@@ -1,10 +1,11 @@
 ---
 title: "📑 11월 1째주 TWIL"
-date: 2020-11-02 19:11:63
+date: 2020-11-04 07:11:44
 category: twil
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+
 
 ## 📚 This Week I Learned
 
