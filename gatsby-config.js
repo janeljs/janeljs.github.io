@@ -3,68 +3,79 @@ const metaConfig = require('./gatsby-meta-config')
 module.exports = {
   siteMetadata: metaConfig,
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/content/blog`,
+      name: `blog`,
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/__about`,
-        name: `about`,
-      },
+  },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/content/__about`,
+      name: `about`,
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
+  },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/content/assets`,
+      name: `assets`,
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-katex`,
-            options: {
-              strict: `ignore`,
-            },
-          },
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1200,
-              linkImagesToOriginal: false,
-            },
-          },
-          {
-            resolve: `gatsby-remark-images-medium-zoom`,
-            options: {
-              margin: 36,
-              scrollOffset: 0,
-            },
-          },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              inlineCodeMarker: '%',
-            },
-          },
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
-          `gatsby-remark-autolink-headers`,
-          `gatsby-remark-emoji`,
-        ],
+  },
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+      {
+        resolve: `gatsby-remark-katex`,
+        options: {
+          strict: `ignore`,
+        },
+      },
+      {
+        resolve: `gatsby-remark-images`,
+        options: {
+          maxWidth: 1200,
+          linkImagesToOriginal: false,
+        },
+      },
+      {
+        resolve: `gatsby-remark-images-medium-zoom`,
+        options: {
+          margin: 36,
+          scrollOffset: 0,
+        },
+      },
+      {
+        resolve: `gatsby-remark-responsive-iframe`,
+        options: {
+          wrapperStyle: `margin-bottom: 1.0725rem`,
+        },
+      },
+      {
+        resolve: `gatsby-remark-prismjs`,
+        options: {
+          inlineCodeMarker: '%',
+        },
+      },
+      `gatsby-remark-copy-linked-files`,
+      `gatsby-remark-smartypants`,
+      `gatsby-remark-autolink-headers`,
+      `gatsby-remark-emoji`,
+      ],
+    },
+  },
+  {
+    resolve: `gatsby-plugin-gtag`,
+    options: {
+        // your google analytics tracking id
+        trackingId: `G-K8BN897BQ9`,
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // enable ip anonymization
+        anonymize: true,
       },
     },
     {
@@ -109,5 +120,5 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sitemap`,
-  ],
-}
+    ],
+  }
