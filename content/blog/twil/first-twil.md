@@ -1,10 +1,11 @@
 ---
 title: "📑 10월 5째주 TWIL"
 date: 2020-10-31 04:10:17
-category: TWIL
+category: twil
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+
 ## 📚 This Week I Learned
 
 
