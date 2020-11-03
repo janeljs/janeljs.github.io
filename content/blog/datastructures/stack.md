@@ -5,6 +5,9 @@ category: datastructures
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+
+* 아직 수정중인 게시글입니다.
+
 ## 스택(Stack)
 가장 나중에 쌓은 데이터를 가장 먼저 빼낼 수 있는 데이터 구조 (LIFO)
 - LIFO(Last In, Fisrt Out) 또는 FILO(First In, Last Out)
@@ -65,3 +68,4 @@ def recursive(data):
 5가 data로 주어졌을 때 재귀 함수의 작동 원리를 생각해보면, 
 
 recursive(5)
+
