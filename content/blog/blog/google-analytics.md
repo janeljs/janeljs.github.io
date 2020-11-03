@@ -35,9 +35,11 @@ module.exports = {
   ],
 }
 ```
+💡 만약 위의 코드를 `gatsby-config.js`에 추가했는데도 전혀 추적이 되지 않고 있다면 gatsby-plugin-gtag를 플러그인 최상단에 배치하자.
 
 #
 
 ***Source***
 
 [Adding Analytics](https://www.gatsbyjs.com/docs/adding-analytics/)
+[plugin error](https://github.com/gatsbyjs/gatsby/issues/12967)
