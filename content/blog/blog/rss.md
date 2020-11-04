@@ -29,7 +29,6 @@ npm install gatsby-plugin-feed
 
 	```bash
 	const { createFilePath } = require(`gatsby-source-filesystem`)
-
 	exports.onCreateNode = ({ node, actions, getNode }) => {
 	  const { createNodeField } = actions
 	  if (node.internal.type === `MarkdownRemark`) {
@@ -44,7 +43,7 @@ npm install gatsby-plugin-feed
 	```
 
 4. `npm run build`로 빌드하기
-	- 만약 github action을 통해 배포 자동화를 해놓았다면 push만 진행해도 된다. 
+5. 구글 서치 콘솔에 rss 제출하기 
 
 #
 

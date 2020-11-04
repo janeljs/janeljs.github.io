@@ -32,7 +32,7 @@ N개의 숫자 카드 묶음의 각각의 크기가 주어질 때, 최소한 몇
 3. 더한 값을 다시 Priority Queue에 넣는다.
 4. 2번의 과정을 반복하다가 Priority Queue에 하나의 원소만 남으면 반복을 종료하고 총합을 출력한다. 
 
-가장 작은 묶음끼리 더한 값을 
+
 
 ```java
 import java.io.BufferedReader;
@@ -63,7 +63,7 @@ public class Main {
 		int b = 0;
 		int sum = 0;
 		
-		while(pq.size()!=1) { // pq.size()가 1이면 이미 모든 묶음이 더해지고 그 합만 들어온 상태이므로 while 문을 종료한다. 
+		while(pq.size()!=1) { 
 			a = pq.remove();
 			b = pq.remove();
 			sum += a+b;
