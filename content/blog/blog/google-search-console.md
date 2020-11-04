@@ -17,7 +17,7 @@ draft: false
 
 ![sitemap](./images/sitemap.png)
 
-4. 마지막으로 `URL 검사`를 클릭해서 내 깃허브 블로그 주소가 잘 등록되어 있는지 확인하면 완료!
+4. 마지막으로 `URL 검사`를 클릭해서 내 깃허브 블로그 주소가 잘 등록되어 있는지 확인하면 완료! ✨
 
 ![url 검사](./images/urltest.png)
 
