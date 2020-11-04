@@ -41,5 +41,5 @@ module.exports = {
 
 ***Source***
 
-[Adding Analytics](https://www.gatsbyjs.com/docs/adding-analytics/)  
+[Adding Analytics gatsby official site](https://www.gatsbyjs.com/docs/adding-analytics/)  
 [plugin error](https://github.com/gatsbyjs/gatsby/issues/12967)
