@@ -1,10 +1,12 @@
 ---
-title: rss
+title: "내 개츠비 블로그에 RSS 추가하는 법"
 date: 2020-11-05 00:11:96
 category: blog
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+
+## 따라해보자! Follow me 😎
 
 1. git bash에 npm 명령어 입력 
 ```bash
@@ -44,6 +46,7 @@ npm install gatsby-plugin-feed
 4. `npm run build`로 빌드하기
 	- 만약 github action을 통해 배포 자동화를 해놓았다면 push만 진행해도 된다. 
 
+#
 
 ***Source***
 
