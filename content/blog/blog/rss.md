@@ -1,5 +1,5 @@
 ---
-title: "내 개츠비 블로그에 RSS 추가하는 법"
+title: "Gatsby 블로그에 RSS 추가하는 법"
 date: 2020-11-05 00:11:96
 category: blog
 thumbnail: { thumbnailSrc }
