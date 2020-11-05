@@ -1,5 +1,5 @@
 ---
-title: Gatsby 블로그 google search console에 등록하기
+title: Google Search Console에 Gatsby 블로그 등록하는 법
 date: 2020-11-04 07:11:91
 category: blog
 thumbnail: { thumbnailSrc }

@@ -76,4 +76,4 @@ print(result)
 
 ***Source***
 
-[백준 2798번 블랙잭](https://www.acmicpc.net/problem/2798)
+[백준 2798](https://www.acmicpc.net/problem/2798)

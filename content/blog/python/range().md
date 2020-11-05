@@ -27,24 +27,26 @@ range(start, stop, step)
 ## 활용 예시
 
 ```python
-x = range(10)
-list = []
-for n in x:
-  list.append(n)
-print(list)
+>>> x = range(10)
+>>> list = []
+>>> for n in x:
+      list.append(n)
+>>> print(list)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-**결과:** [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 
 ```python
-x = range(3, 20, 2)
-list = []
-for n in x:
-  list.append(n)
-print(list)
+>>> x = range(3, 20, 2)
+>>> list = []
+>>> for n in x:
+      list.append(n)
+>>> print(list)
+[3, 5, 7, 9, 11, 13, 15, 17, 19]
 ```
 
-**결과:** [3, 5, 7, 9, 11, 13, 15, 17, 19]
+
 
 #
 
