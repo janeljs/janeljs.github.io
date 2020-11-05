@@ -31,16 +31,64 @@ draft: false
 
 
 ```python
+# 내 풀이
 
+num_test = int(input())
+for i in range(num_test):
+    n, m = map(int, input().split(" "))
+    queue = list(map(int, input().split(" ")))
+    time = 0
+    
+    while(True):
+        out = True
+        p = 0
+        while(p < len(queue)):
+            if queue[0] < queue[p]:
+                out = False
+                break
+            p += 1
+            out = True
+        
+        if(out):
+            time +=1
+            queue.remove(queue[0])
+            if m == 0 :
+                print(time)
+                break
+            m = m-1
+        else:
+            temp = queue[0]
+            queue.remove(queue[0])
+            queue.append(temp)
+            if m == 0:
+                m = len(queue) - 1
+            else:
+                m = m-1
 
 ```
 ## Feedback
-- 추천 풀이 시간: 
-- 소요 시간:   
+- 난이도 easy인데도 푸는데 정말 오래걸렸다. 그래도 포기하지 않고 풀어내니 뿌듯하다.
+- python 기본 문법 및 자료구조를 더 공부해 적극적으로 활용해야겠다. 
 
 ```python
-# 주석은 더 나은 풀이와 제 풀이의 차이점을 기록합니다. 
+# 다른 사람 풀이
 
+test_case = int(input())
+for _ in range(test_case):
+	n, m = list(map(int, input().split(' ')))
+	queue = list(map(int, input().split(' ')))
+	queue = [(i, idx) for idx, i in enumerate(queue)]
+	count = 0
+	while True:
+		if queue[0][0] == max(queue, key=lambda x: x[0])[0]:
+			count += 1
+		if queue[0][1] == m:
+			print(count)
+			break
+		else:
+			queue.pop(0)
+		else:
+			queue.append(queue.pop(0))
 
 ```
 

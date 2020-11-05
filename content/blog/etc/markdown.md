@@ -6,11 +6,25 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-### 화살표 
-⬅️`&larr;`
-⬆️`&uarr;`
-➡️`&rarr;`
-⬇️`&darr;`
+### 화살표
+
+> ⬅️`&larr;`  
+⬆️`&uarr;`  
+➡️`&rarr;`  
+⬇️`&darr;`  
+
+### 글자색 변경
+```bash
+<span style="color:purple">Jane's Devlog</span>
+```
+> Result: <span style="color:purple">Jane's Devlog</span>
+
+### 정렬
+```bash
+<center>가운데</center>  
+<div style="text-align: left"> 왼쪽 </div>
+<div style="text-align: right"> 오른쪽 </div>
+```
 
 ### 인용 
 

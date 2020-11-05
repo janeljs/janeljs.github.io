@@ -33,6 +33,8 @@ The first and only line of output should contain the largest possible sum we can
 
 
 ```python
+# 내 풀이
+
 n_and_m = list(map(int, input().split(' ')))
 num_in_cards = list(map(int, input().split(' ')))
 
@@ -51,7 +53,7 @@ print(largest_m)
 ## Feedback
 
 ```python
-# 주석은 더 나은 풀이와 제 풀이의 차이점을 기록합니다. 
+# 다른 사람 풀이 
 
 n, m = list(map(int, input().split(' '))) # ','로 각각 데이터 할당 가능
 data = list(map(int, input().split(' '))) # 변수명 길이 적당

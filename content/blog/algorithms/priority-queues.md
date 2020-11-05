@@ -35,6 +35,8 @@ N개의 숫자 카드 묶음의 각각의 크기가 주어질 때, 최소한 몇
 
 
 ```java
+// 내 풀이
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

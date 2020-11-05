@@ -27,6 +27,7 @@ draft: false
 
 
 ```python
+# 내 풀이
 
 n = int(input()) 
 s_sq = [] 
@@ -83,6 +84,8 @@ else:
 - 결과값이 안 나올 때는 전체적인 로직을 봐야지 주먹구구식으로 결과값에만 맞춘 코딩을 하면 안 된다. 
 
 ```python
+# 다른 사람 풀이 
+
 n = int(input())
 
 count = 1

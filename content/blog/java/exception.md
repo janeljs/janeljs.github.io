@@ -29,8 +29,10 @@ finally { 예외 발생 여부와 상관없이 무조건 실행될 코드; }
 
 ### 예외 클래스(Exception class)
 
-![rss](./images/exception.png)
+![이미지 출처: tcpschool.com](./images/exception.png)
+<center><span style="color:gray">이미지 출처: tcpschool.com</span></center>
 
+<br/>
 
 1. RuntimeException 클래스
 	- 치명적인 예외 상황을 발생시키지 않는 예외들로 구성  
