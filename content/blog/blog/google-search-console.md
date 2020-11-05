@@ -5,6 +5,11 @@ category: blog
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+### Gatsby  SEO 최적화 시리즈 😉  
+> [Gatsby 블로그에 Google Analytics 플러그인 추가하는 법](https://janeljs.github.io/blog/google-analytics/)  
+[Gatsby 블로그에 RSS 추가하는 법](https://janeljs.github.io/blog/rss/)
+
+
 ## 따라해보자! Follow me 😎
 1. [google search console](https://search.google.com/search-console/about) 사이트 접속 
 

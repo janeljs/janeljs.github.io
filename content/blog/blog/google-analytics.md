@@ -5,6 +5,10 @@ category: blog
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+### Gatsby  SEO 최적화 시리즈 😉  
+> [Gatsby 블로그 google search console에 등록하기](https://janeljs.github.io/blog/google-search-console/)  
+[Gatsby 블로그에 RSS 추가하는 법](https://janeljs.github.io/blog/rss/)
+
 
 ## 따라해보자! Follow me 😎
 

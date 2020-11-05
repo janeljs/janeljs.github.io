@@ -5,6 +5,10 @@ category: blog
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+### Gatsby  SEO 최적화 시리즈 😉  
+> [Gatsby 블로그에 Google Analytics 플러그인 추가하는 법](https://janeljs.github.io/blog/google-analytics/)  
+[Gatsby 블로그 google search console에 등록하기](https://janeljs.github.io/blog/google-search-console/)
+
 
 ## 따라해보자! Follow me 😎
 
@@ -43,7 +47,13 @@ npm install gatsby-plugin-feed
 	```
 
 4. `npm run build`로 빌드하기
-5. 구글 서치 콘솔에 rss 제출하기 
+5. 구글 서치 콘솔에 RSS 제출하기 
+![rss](./images/rss.png)
+
+	- 만약 RSS를 제출했는데 `가져올 수 없음`이 뜬다면 `URL 검사`에 내 RSS 주소를 입력하여 색인을 생성한 뒤 다시 제출하면 된다.  
+	- URL 검사 시 `URL이 Google에 등록되어 있지 않음`이 뜬다면 `실제 URL 테스트`를 눌러 내 RSS url을 등록할 수 있다. 
+	- 다시 `Sitemaps`로 들어가 `새 사이트맵 추가`에 rss.xml을 추가해주면 된다. 
+
 
 #
 

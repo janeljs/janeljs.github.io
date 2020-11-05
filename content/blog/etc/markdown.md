@@ -1,5 +1,5 @@
 ---
-title: Markdown으로 문서 작성하는 법
+title: 마크다운 문법으로 문서 작성하는 법
 date: 2020-11-04 06:11:33
 category: etc
 thumbnail: { thumbnailSrc }

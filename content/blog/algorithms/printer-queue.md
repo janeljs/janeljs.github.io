@@ -48,4 +48,4 @@ draft: false
 
 ***Source***
 
-[백준 2920번 음계]()
+[프린터 큐](https://www.acmicpc.net/problem/1966)
