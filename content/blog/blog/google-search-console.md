@@ -6,8 +6,10 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 ### Gatsby  SEO 최적화 시리즈 😉  
-> [Gatsby 블로그에 Google Analytics 플러그인 추가하는 법](https://janeljs.github.io/blog/google-analytics/)  
-[Gatsby 블로그에 RSS 추가하는 법](https://janeljs.github.io/blog/rss/)
+> [Gatsby 블로그에 Google Analytics 플러그인 추가하는 법](https://janeljs.github.io/blog/google-analytics/)    
+[Google Search Console에 Gatsby 블로그 등록하는 법](https://janeljs.github.io/blog/google-search-console/)   
+[Gatsby 블로그에 RSS 추가하는 법](https://janeljs.github.io/blog/rss/)     
+[Gatsby 블로그에 advanced-sitemap 플러그인 추가하는 법](https://janeljs.github.io/blog/gatsby-advanced/)    
 
 
 ## 따라해보자! Follow me 😎

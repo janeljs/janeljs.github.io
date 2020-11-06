@@ -11,6 +11,7 @@ module.exports = {
         anonymize: true,
       },
     },
+      `gatsby-plugin-advanced-sitemap`,
    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
