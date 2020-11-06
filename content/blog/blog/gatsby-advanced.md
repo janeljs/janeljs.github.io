@@ -51,7 +51,8 @@ plugins: [
 ```bash
 gatsby build && gatsby serve
 ```
- 
+4. 완료한 뒤 `https://본인의 깃허브 주소/sitemap-pages.xml`로 접속하면 자신의 Advanced Sitemap을 확인할 수 있다.
+![advancedsitemap](./images/sitemapadvanced.png)
 
 
 #
