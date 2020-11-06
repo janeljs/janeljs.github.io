@@ -37,6 +37,8 @@ draft: false
     - 제출 버튼
 
 ## 실습 코드
+- Result
+![form](./images/form.png)
 
 ```html
 <html>
