@@ -38,8 +38,7 @@ draft: false
 
 
 
-
 #
 
-***Source***
-[gatsby official site/gatsby build(https://www.gatsbyjs.com/docs/overview-of-the-gatsby-build-process/)
+***Source***  
+[gatsby official site/gatsby build](https://www.gatsbyjs.com/docs/overview-of-the-gatsby-build-process/)
