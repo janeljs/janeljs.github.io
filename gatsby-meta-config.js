@@ -14,7 +14,7 @@ module.exports = {
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
+    disqusShortName: 'janeljs', // Your disqus-short-name. check disqus.com.
     utterances: 'janeljs/janeljs.github.io', // Your repository for archive comment
   },
   configs: {
