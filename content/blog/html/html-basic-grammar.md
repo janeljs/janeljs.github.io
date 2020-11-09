@@ -26,7 +26,8 @@ draft: false
 <br/>
 
 ### 가장 큰 범위 설정
-
+- **`<!DOCTYPE html>`**
+    - 웹 브라우저에게 HTML 문서가 나올거라고 전달 
 - **`<html>`**
     - HTML 문서
     - 파일의 시작과 끝에 위치
@@ -35,6 +36,7 @@ draft: false
     - 메타데이터
         - `<meta>` 기타 메타데이터 요소
             - e.g 문자 인코딩으로 utf-8 설정
+            - `<meta charset="utf-8"/>`
     - css파일 등을 불러올 때 자주 사용
         - 사용자가 처음 볼 때 예쁜 화면이 나오는 게 중요하기 때문
 - **`<body>`**
@@ -86,6 +88,8 @@ draft: false
 - **`<div>`**
     - 단락 바꿈
     - 밑으로 간다.
+    - `<div>`에 포함될 수 있는 것
+        - (<h1> - <h6>), <a>, <img>, <p>, <ul>
 - **`<span>`**
     - 옆으로 간다.
    
@@ -130,12 +134,19 @@ draft: false
 ### 멀티미디어
 
 - **`<img>`**
-    - 이미지
+    ```html
+    <img src="..."/>
+    ```
 - **`<audio>`**
 - **`<video>`**
-
+    ```html
+    <video width="450px" height="350px" controls>
+        <source src="..." type="video/mp4">
+    </video>
+    ```
    
 #
 
 ***Source***
 - 스튜디오 마르 html 세션 
+- [codeacademy](https://www.codecademy.com/learn/make-a-website)
