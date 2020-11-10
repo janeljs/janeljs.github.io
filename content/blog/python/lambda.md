@@ -38,5 +38,5 @@ lambda 매개변수1, 매개변수2, ... : 매개변수를 이용한 표현식
 
 #
 
-***Source***
+***Source***  
 [wikidocs.net/lambda](https://wikidocs.net/24#lambda)
