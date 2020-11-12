@@ -161,6 +161,10 @@ draft: false
 .parent { display: flex; flex-wrap: wrap; justify-content: center; }
 ```
 
+- flex: 항목들을 수평으로 배치
+- flex-wrap: 항목들이 화면 밖으로 나가는 것을 방지
+- justify-content: center: 가운데 정렬
+
 #
 
 **_Source_**
