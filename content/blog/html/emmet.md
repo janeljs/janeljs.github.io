@@ -1,5 +1,5 @@
 ---
-title: Emmet
+title: '[html] html 태그를 빠른 시간 안에 작성하는 법(feat. Emmet)'
 date: 2020-11-12 14:11:51
 category: html
 thumbnail: { thumbnailSrc }
