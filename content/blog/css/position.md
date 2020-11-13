@@ -12,7 +12,8 @@ draft: false
   - 기본값
   - html에 정의된 순서대로 보여줌
 - position: absolute
-  - 아이템과 가장 가까이에 있는 box 안에서 위치 변경
+  - 아이템과 가장 가까이에 있는 부모 중에 기본값이 static이 아닌 부모를 기준으로 이동
+  - 주변에 함께 있던 아이템들의 재배치가 일어남
 - position: fixed
   - class에서 벗어나 웹 페이지 안에서 움직임
 - position: sticky
