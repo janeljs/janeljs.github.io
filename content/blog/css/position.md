@@ -44,8 +44,10 @@ draft: false
 
 - position: fixed
   - class에서 벗어나 웹 페이지 안에서 움직임
+  - 부모와 상관없이 viewport를 기준으로 포지션 변경이 일어남
 - position: sticky
   - scroll이 되어도 원래 있던 자리에 고정
+  - 부모 box 안에서의 position이 지정되어 있어야 함
 
 #
 
