@@ -21,3 +21,5 @@ git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git pu
 ```bash
 git cmp "커밋 메시지"
 ```
+
+#
