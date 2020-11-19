@@ -60,7 +60,6 @@ draft: false
 ```
 
 
-
 ### list(dictionary_name)
 
 - return **a list of keys** used in the dictionary in **insertion order**
@@ -97,11 +96,19 @@ True
 False
 ```
 
+<br/>
 
-
+### ❗ Caution
+- Each key should be unique! if there are two keys with the same value, the new data will overwrite the previous data.
+```python
+>>> a = {1:'a', 1:'b'}
+>>> a
+{1: 'b'}
+```
 
 #
 
 ***Source***
 
 - [docs.python.org]([https://docs.python.org/3/tutorial/datastructures.html?highlight=dictionary](https://docs.python.org/3/tutorial/datastructures.html?highlight=dictionary))
+- [Jump to python](https://wikidocs.net/16)
