@@ -18,37 +18,35 @@ draft: false
 3. 함수는 왼쪽(left) + 기준점(pivot) + 오른쪽(right) 을 반환 
 
 ```python
-def quick_sort(data):
-    left, right = list(), list() # 변수 선언
-    pivot = data[0] # 첫 번째 데이터를 pivot으로 선정
-
-		if len(data) <= 1: 
-	        return data # 길이가 1이면 바로 반환
+def qsort(data):
+    if len(data) <= 1:
+        return data
+    
+    left, right = list(), list()
+    pivot = data[0]
     
     for index in range(1, len(data)):
-        if pivot > data[index]: # pivot보다 작으면 left에 저장
+        if pivot > data[index]:
             left.append(data[index])
         else:
-            right.append(data[index]) # pivot보다 크면 right에 저장
+            right.append(data[index])
     
-    return quick_sort(left) + [pivot] + quick_sort(right) 
-						# quick_sort 다시 호출해서 반환된 list를 결합
+    return qsort(left) + [pivot] + qsort(right)
 ```
 
 위의 코드를 **list comprehension**으로 바꾼다면 조금 더 간결하게 표현할 수 있다.
 
 ```python
-def quick_sort(data):
-		left, right = list(), list()
-		pivot = data[0]
+def qsort(data):
+    if len(data) <= 1:
+        return data
+    
+    pivot = data[0]
 
-		if len(data) < = 1:
-				return data
-		
-		left = [num for num in data[1:] if pivot > num]
-		right = [num for num in data[1:] if pivot <= num]
-
-		return qsort(left) + [pivot] + qsort(right)
+    left = [item for item in data[1:] if pivot > item]
+    right = [item for item in data[1:] if pivot <= item]
+    
+    return qsort(left) + [pivot] + qsort(right)
 ```
 
 ## 시간복잡도
