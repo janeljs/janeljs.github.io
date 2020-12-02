@@ -110,5 +110,5 @@ False
 
 ***Source***
 
-- [docs.python.org]([https://docs.python.org/3/tutorial/datastructures.html?highlight=dictionary](https://docs.python.org/3/tutorial/datastructures.html?highlight=dictionary))
+- [docs.python.org]([https://docs.python.org/3/tutorial/datastructures.html?highlight=dictionary])
 - [Jump to python](https://wikidocs.net/16)
