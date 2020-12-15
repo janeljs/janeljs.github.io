@@ -33,7 +33,7 @@ draft: false
 
 ```
 
-## ## Feedback
+## Feedback
 
 ```python
 
