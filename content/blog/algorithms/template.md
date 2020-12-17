@@ -26,6 +26,8 @@ draft: false
 
 ## Solution
 
+-
+
 ```python
 
 # 내 풀이
