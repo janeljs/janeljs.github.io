@@ -28,8 +28,6 @@ draft: false
 
 ```python
 
-# 내 풀이
-
 
 ```
 
@@ -37,7 +35,6 @@ draft: false
 
 ```python
 
-# 다른 사람 풀이
 
 
 ```
