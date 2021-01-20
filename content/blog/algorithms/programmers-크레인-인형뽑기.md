@@ -37,20 +37,38 @@ moves 배열 각 원소들의 값은 1 이상이며 board 배열의 가로 크�
 ```java
 // 내 풀이
 
+import java.util.Stack;
+
+class Solution {
+    public int solution(int[][] board, int[] moves) {
+        int answer = 0;
+        Stack<Integer> stack = new Stack<>();
+        for (int x : moves) {
+            for (int i = 0; i < board.length; i++) {
+                if (board[i][x - 1] != 0) {
+                    if (!stack.empty() && stack.peek() == board[i][x - 1]) {
+                        stack.pop();
+                        answer += 2;
+                        board[i][x - 1] = 0;
+                        break;
+                    } else {
+                        stack.push(board[i][x - 1]);
+                        board[i][x - 1] = 0;
+                        break;
+                    }
+                }
+            }
+        }
+
+        return answer;
+    }
+}
 ```
 
 ## Feedback
 
--
-
 ```java
 // 풀이 1
-
-
-```
-
-```java
-// 풀이 2
 
 
 ```
@@ -59,4 +77,4 @@ moves 배열 각 원소들의 값은 1 이상이며 board 배열의 가로 크�
 
 **_Source_**
 
--
+- https://programmers.co.kr/learn/courses/30/lessons/64061
