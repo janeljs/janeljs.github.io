@@ -35,8 +35,6 @@ moves 배열 각 원소들의 값은 1 이상이며 board 배열의 가로 크�
 ## Solution
 
 ```java
-// 내 풀이
-
 import java.util.Stack;
 
 class Solution {
@@ -63,14 +61,6 @@ class Solution {
         return answer;
     }
 }
-```
-
-## Feedback
-
-```java
-// 풀이 1
-
-
 ```
 
 #

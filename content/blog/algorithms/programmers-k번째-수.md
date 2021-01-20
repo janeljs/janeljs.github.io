@@ -31,8 +31,6 @@ commands의 각 원소는 길이가 3입니다.
 ## Solution
 
 ```java
-// 내 풀이
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -47,22 +45,6 @@ class Solution {
         return list.stream().mapToInt(i -> i).toArray();
     }
 }
-```
-
-## Feedback
-
--
-
-```java
-// 풀이 1
-
-
-```
-
-```java
-// 풀이 2
-
-
 ```
 
 #

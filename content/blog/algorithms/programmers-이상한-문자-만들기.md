@@ -22,8 +22,6 @@ draft: false
 ## Solution
 
 ```java
-// 내 풀이
-
 class Solution {
     public String solution(String s) {
         StringBuilder answer = new StringBuilder();
@@ -44,22 +42,6 @@ class Solution {
         return answer.toString().substring(0,answer.toString().length()-1);
     }
 }
-```
-
-## Feedback
-
--
-
-```java
-// 풀이 1
-
-
-```
-
-```java
-// 풀이 2
-
-
 ```
 
 #

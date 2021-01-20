@@ -29,8 +29,6 @@ draft: false
 ## Solution
 
 ```java
-// 내 풀이
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -77,22 +75,6 @@ class Solution {
         return answer;
     }
 }
-```
-
-## Feedback
-
--
-
-```java
-// 풀이 1
-
-
-```
-
-```java
-// 풀이 2
-
-
 ```
 
 #
