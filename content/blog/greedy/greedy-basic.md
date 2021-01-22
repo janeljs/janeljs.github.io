@@ -57,6 +57,7 @@ class Main {
 
 ```py
 # 내 풀이
+
 n, m, k = map(int, input().split())
 _list = list(map(int, input().split()))
 answer = []
