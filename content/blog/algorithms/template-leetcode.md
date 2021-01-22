@@ -21,7 +21,6 @@ draft: false
 ## Solution
 
 ```java
-// 내 풀이
 
 ```
 
@@ -30,13 +29,7 @@ draft: false
 -
 
 ```java
-// 풀이 1
 
-
-```
-
-```java
-// 풀이 2
 
 
 ```
