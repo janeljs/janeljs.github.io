@@ -20,6 +20,8 @@ draft: false
 
 #
 
+## 예제 2:
+
 **_Source_**
 
 - https://github.com/ndb796/python-for-coding-test
