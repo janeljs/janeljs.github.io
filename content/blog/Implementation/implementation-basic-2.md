@@ -1,6 +1,6 @@
 ---
 title: 이코테 Chapter 4 구현 알고리즘 (2)
-date: 2021-01-24 06:01:47
+date: 2021-01-25 06:01:79
 category: implementation
 thumbnail: { thumbnailSrc }
 draft: false
@@ -214,3 +214,9 @@ while True:
 # 정답 출력
 print(count)
 ```
+
+#
+
+**_Source_**
+
+- https://github.com/ndb796/python-for-coding-test
