@@ -133,7 +133,50 @@ public class Main {
 }
 ```
 
-- 교재 코드보다 조금 더 간결하게 짜볼 수 있을 것 같아 다시 짜보았다.
+- show() 메서드를 만드는 대신 toString을 override하는 형태로 바꿔주고, index와 distance는 final로 선언해주었다.
+
+```java
+import java.util.*;
+
+class Node {
+    private final int index;
+    private final int distance;
+
+    public Node(int index, int distance) {
+        this.index = index;
+        this.distance = distance;
+    }
+
+    @Override
+    public String toString() {
+        return "(" + index + "," + distance + ") ";
+    }
+}
+
+class Main {
+
+    public static ArrayList<ArrayList<Node>> graph = new ArrayList<ArrayList<Node>>();
+
+    public static void main(String[] args) {
+
+        for (int i = 0; i < 3; i++) {
+            graph.add(new ArrayList<Node>());
+        }
+
+        graph.get(0).add(new Node(1, 7));
+        graph.get(0).add(new Node(2, 5));
+        graph.get(1).add(new Node(0, 7));
+        graph.get(2).add(new Node(0, 5));
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < graph.get(i).size(); j++) {
+                System.out.print(graph.get(i).get(j));
+            }
+            System.out.println();
+        }
+    }
+}
+```
 
 #
 
