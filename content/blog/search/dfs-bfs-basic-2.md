@@ -8,7 +8,7 @@ draft: false
 
 # DFS (Depth-First Search)
 
-- 깊이 우선 탐색, 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘
+- 깊이 우선 탐색, 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘  
   (= 정점의 자식들을 먼저 탐색하는 방식)
 - 스택 자료구조에 기초한다.
 - 데이터 탐색에 $O(N)$의 시간이 소요된다.
@@ -17,8 +17,8 @@ draft: false
 
 1. 탐색을 시작한 노드를 스택에 삽입하고 방문 체크를 한다.
 2. 스택의 최상단 노드에 방문하지 않은 인접 노드가 있다면, 그 노드를 스택에 넣고 방문 체크를 한다.
-   ※ 방문하지 않은 노드가 여러 개 있다면 (일반적으로) 번호가 낮은 순서부터 처리한다.
-   ※ 방문하지 않은 인접 노드가 없다면, 스택에서 최상단 노드를 꺼낸다.
+   - 방문하지 않은 노드가 여러 개 있다면 (일반적으로) 번호가 낮은 순서부터 처리한다.
+   - 방문하지 않은 인접 노드가 없다면, 스택에서 최상단 노드를 꺼낸다.
 3. 2번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 
 ## 구현
@@ -56,9 +56,9 @@ visited = [False] * 9
 dfs(graph, 1, visited)
 ```
 
-- 자바 코드는 아래와 같다.
+- 자바 코드는 아래와 같다.  
   (Enhanced for 문을 사용해서 교재 코드를 조금 더 간단하게 고쳐보았다.)
-- 자바의 경우 graph와 visited를 static으로 선언해주면 굳이 메서드의 인자로 받지 않아도 된다.
+- 자바의 경우 graph와 visited를 static으로 선언해주면 굳이 메서드의 인자로 받지 않아도 된다.  
   (파이썬도 마찬가지지만, global 키워드 사용을 피하려고 매개변수로 받은 것 같다.)
 - 또한 처음부터 boolean으로 타입을 지정하여 배열을 생성하기 때문에 false로 초기화 되어있다.
 
@@ -111,6 +111,41 @@ class Main {
     }
 
 }
+```
+
+## 참고
+
+- 2차원 리스트가 아닌 dictionary 자료구조를 이용해도 그래프를 표현할 수 있다.
+
+```py
+graph = dict()
+
+graph['A'] = ['B', 'C']
+graph['B'] = ['A', 'D']
+graph['C'] = ['A', 'G', 'H', 'I']
+graph['D'] = ['B', 'E', 'F']
+graph['E'] = ['D']
+graph['F'] = ['D']
+graph['G'] = ['C']
+graph['H'] = ['C']
+graph['I'] = ['C', 'J']
+graph['J'] = ['I']
+```
+
+- 위의 graph를 이용하면 아래와 같이 DFS를 수행할 수 있으며 $O(V+E)$의 시간복잡도를 갖는다.
+
+```py
+def dfs(graph, start_node):
+    visited, need_visit = list(), list()
+    need_visit.append(start_node)
+
+    while need_visit:
+        node = need_visit.pop()
+        if node not in visited:
+            visited.append(node)
+            need_visit.extend(graph[node])
+
+    return visited
 ```
 
 #
