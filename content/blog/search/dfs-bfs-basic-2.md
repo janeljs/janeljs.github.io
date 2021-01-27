@@ -136,7 +136,7 @@ graph['J'] = ['I']
 
 ```py
 def dfs(graph, start_node):
-    visited, need_visit = list(), list()
+    visited, need_visit = list(), list() # visit은 queue, need_visit은 stack
     need_visit.append(start_node)
 
     while need_visit:
