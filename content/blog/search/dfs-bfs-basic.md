@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-# 탐색
+## 탐색
 
 - 많은 양의 데이터 중에서 원하는 데이터를 찾는 과정
 
