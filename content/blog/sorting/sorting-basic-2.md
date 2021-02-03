@@ -8,7 +8,7 @@ draft: false
 
 ### 📌 정렬 알고리즘 이론
 
-> [이코테 Chapter 6 정렬 알고리즘 (1)](https://janeljs.github.io/sorting/sorting-basic/)
+> [이코테 Chapter 6 정렬 알고리즘 (1)](https://janeljs.github.io/sorting/sorting-basic-1/)
 
 ## 실전 문제 1: 위에서 아래로
 
