@@ -1,6 +1,6 @@
 ---
 title: 이코테 Chapter 6 정렬 알고리즘 (1)
-date: 2021-01-31 07:01:86
+date: 2021-02-03 13:02:60
 category: sorting
 thumbnail: { thumbnailSrc }
 draft: false

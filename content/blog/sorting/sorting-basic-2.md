@@ -1,6 +1,6 @@
 ---
 title: 이코테 Chapter 6 정렬 알고리즘 (2)
-date: 2021-02-03 12:02:58
+date: 2021-02-03 13:02:81
 category: sorting
 thumbnail: { thumbnailSrc }
 draft: false
@@ -89,11 +89,6 @@ for i in range(k):
 print(sum(a))
 
 ```
-
-## Feedback
-
-- 정렬 부분은 난이도 easy 문제밖에 없어 쉬웠다.
-- 다음 챕터인 이진 탐색부터 다시 어려워질 것 같다.
 
 #
 
