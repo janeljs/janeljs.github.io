@@ -1,8 +1,8 @@
 module.exports = {
-  title: `Jane's Devlog`,
-  description: `커피 한 잔 하며 읽기 좋은 블로그`,
+  title: `Jane's PS Blog`,
+  description: `Jane의 PS 블로그`,
   author: `[Jisun Lim]`,
-  introduction: `Carpe diem`,
+  introduction: `기술 블로그 👉 https://velog.io/@janeljs`,
   siteUrl: `https://janeljs.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
