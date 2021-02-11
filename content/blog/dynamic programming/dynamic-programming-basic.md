@@ -21,22 +21,35 @@ draft: false
 
 ## 실전 문제1: 1로 만들기
 
-## Testcase 1
+## Testcase
 
 ```py
 26
 # 3
 ```
 
-## Testcase 2
-
-```py
-
-```
-
 ## Solution
 
+- 쉬운 문제인데 혼자 힘으로 못 풀었다. 언제쯤 혼자 힘으로 DP 문제를 풀 수 있을까?
+- 2시간 동안 고민하다가 풀이를 봤는데 잘 이해가 안 되어 python tutor를 보고 겨우 이해했다.
+  ![dp](./images/dp.png)
+
 ```py
+n = int(input())
+
+dp = [0] * 30001
+
+for i in range(2, n + 1):
+    dp[i] = dp[i - 1] + 1
+
+    if i % 2 == 0:
+        dp[i] = min(dp[i], dp[i // 2] + 1)
+    if i % 3 == 0:
+        dp[i] = min(dp[i], dp[i // 3] + 1)
+    if i % 5 == 0:
+        dp[i] = min(dp[i], dp[i // 5] + 1)
+
+print(dp[n])
 
 ```
 
