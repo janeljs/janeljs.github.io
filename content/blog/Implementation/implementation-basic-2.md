@@ -1,5 +1,5 @@
 ---
-title: 이코테 Chapter 4 구현 알고리즘 (2)
+title: 이코테 Chapter 4 구현 (2)
 date: 2021-01-25 06:01:79
 category: implementation
 thumbnail: { thumbnailSrc }

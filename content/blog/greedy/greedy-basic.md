@@ -1,5 +1,5 @@
 ---
-title: 이코테 Chapter 3 그리디 알고리즘
+title: 이코테 Chapter 3 그리디
 date: 2021-01-22 21:01:14
 category: greedy
 thumbnail: { thumbnailSrc }
