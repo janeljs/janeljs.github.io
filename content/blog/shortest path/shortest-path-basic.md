@@ -1,5 +1,5 @@
 ---
-title: 이코테 Chapter 9 최단 경로
+title: 이코테 Chapter 9 최단 경로 (1)
 date: 2021-02-14 04:02:46
 category: shortest path
 thumbnail: { thumbnailSrc }
@@ -14,9 +14,10 @@ draft: false
 
 ## 다익스트라 최단 경로 알고리즘
 
-- single-source shortest path problem
 - 그래프에서 여러 개의 노드가 있을 때, 특정한 노드에서 출발하여 다른 노드로 가는 각각의 최단 경로를 구해주는 알고리즘
 - 매번 최단 거리 테이블을 선형적으로 탐색한다.
+- single-source shortest path problem
+- 그리디 알고리즘
 - 동작 과정
   1. 출발 노드를 설정한다.
   2. 최단 거리 테이블(1차원 리스트)을 초기화한다.  

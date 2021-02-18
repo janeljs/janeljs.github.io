@@ -12,7 +12,7 @@ draft: false
 
 ## 실전 문제 1: 위에서 아래로
 
-## Testcase
+### Testcase
 
 ```py
 3
