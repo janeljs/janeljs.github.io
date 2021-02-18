@@ -2,7 +2,7 @@ module.exports = {
   title: `Jane's PS Blog`,
   description: `Jane의 PS 블로그`,
   author: `[Jisun Lim]`,
-  introduction: `기술 블로그 👉 https://velog.io/@janeljs`,
+  introduction: `기술 블로그 👉 <a href="https://velog.io/@janeljs">velog.io/@janeljs</a>`,
   siteUrl: `https://janeljs.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
