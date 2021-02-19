@@ -5,3 +5,5 @@ category: graph
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+
+## 신장 트리(Spanning Tree)
