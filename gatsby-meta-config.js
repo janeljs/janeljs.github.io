@@ -5,7 +5,7 @@ module.exports = {
   introduction: `Carpe diem`,
   siteUrl: `https://janeljs.github.io`, // Your blog site url
   social: {
-    velog: `janeljs`, // Your Twitter account
+    velog: `janeljs`, // Your Velog account
     github: `janeljs`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: `jisun153`, // Your Facebook account

@@ -37,7 +37,7 @@ export const Bio = () => (
                   )}
                   {social.velog && (
                     <a href={`https://velog.io/@${social.velog}`}>
-                      Twitter
+                      Velog
                     </a>
                   )}
                   {social.facebook && (
@@ -74,7 +74,7 @@ const bioQuery = graphql`
         author
         introduction
         social {
-          twitter
+          velog
           github
           medium
           facebook
