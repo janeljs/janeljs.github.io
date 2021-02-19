@@ -83,29 +83,17 @@ topology_sort()
 1 2 5 3 6 4 7
 ```
 
-### 참고
+ <br/>
+
+### 🌟 참고
 
 ### deque
 
 - 파이썬에서는 queue를 구현할 때 보통 deque를 이용한다.
 - 리스트와 다르게 인덱싱, 슬라이싱이 불가하다.
 - 시작 또는 끝 부분에 데이터를 삽입하거나 삭제할 때 효과적이다.
-- 스택이나 큐의 기능을 모두 갖추고 있기 때문에 스택이나 큐 대용으로 사용될 수 있다.
+- 스택이나 큐의 기능을 모두 갖추고 있기 때문에 스택이나 큐 대용으로 사용될 수 있다.  
   &rarr; 큐로 이용하고 싶은 경우 삽입 시에는 append(), 삭제 시에는 popleft()를 사용하면 된다.
-
-### deque 메서드
-
-| name          | description                      |
-| ------------- | -------------------------------- |
-| pop()         | 마지막 원소를 제거한 뒤 반환     |
-| popleft()     | 첫 번째 원소를 제거한 뒤 반환    |
-| append(x)     | deque 오른쪽에 x 삽입            |
-| appendleft(x) | deque 왼쪽에 x 삽입              |
-| clear()       | deque의 모든 원소를 제거         |
-| copy()        | deque의 shallow copy를 생성      |
-| count(x)      | x와 같은 deque element의 수 계산 |
-
-- 예제
 
 ```py
 from collections import deque
@@ -121,6 +109,18 @@ print(list(a))
 # result
 [9, 1, 2, 3, 3, 3, 5, 5, 7, 10]
 ```
+
+### deque 메서드
+
+| name          | description                      |
+| ------------- | -------------------------------- |
+| pop()         | 마지막 원소를 제거한 뒤 반환     |
+| popleft()     | 첫 번째 원소를 제거한 뒤 반환    |
+| append(x)     | deque 오른쪽에 x 삽입            |
+| appendleft(x) | deque 왼쪽에 x 삽입              |
+| clear()       | deque의 모든 원소를 제거         |
+| copy()        | deque의 shallow copy를 생성      |
+| count(x)      | x와 같은 deque element의 수 계산 |
 
 ### 시간복잡도
 
