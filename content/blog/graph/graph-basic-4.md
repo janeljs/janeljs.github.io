@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-## 실전문제 1: 팀 결성
+## 실전 문제 1: 팀 결성
 
 ## Testcase
 
