@@ -14,9 +14,7 @@ draft: false
 
 ## Constraints
 
-```py
-
-```
+-
 
 ## Solution
 
