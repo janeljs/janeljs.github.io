@@ -42,6 +42,7 @@ draft: false
 SELECT animal_id from animal_ins where name is null;
 ```
 - 이름이 있는 동물의 아이디
+
 ```sql
 SELECT animal_id from animal_ins where name is not null;
 ```
