@@ -37,11 +37,16 @@ import java.util.Arrays;
 class Solution {
     public int[] solution(int[] array, int[][] commands) {
         ArrayList<Integer> list = new ArrayList<>();
+        // commands를 돌면서
         for (int i = 0; i < commands.length; i++) {
+            // copyOfRange(final index exclusive)
             int[] temp  = Arrays.copyOfRange(array, commands[i][0]-1, commands[i][1]);
+            // 정렬 후 
             Arrays.sort(temp);
+            // 정답 리스트 추가
             list.add(temp[commands[i][2]-1]);
         }
+        // int 배열로 바꾸기, mapToInt(int 타입의 스트림으로 바꿔줌)
         return list.stream().mapToInt(i -> i).toArray();
     }
 }
