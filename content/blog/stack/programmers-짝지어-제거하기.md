@@ -43,10 +43,10 @@ b *aa* baa → *bb* aa → *aa* →
 ```py
 def solution(s):
     stack = []
+    if (len(s) % 2 != 0):
+        return 0
     for char in s:
-        if len(stack) == 0:
-            stack.append(char)
-        elif stack[-1] == char:
+        if len(stack) != 0 and stack[-1] == char:
             stack.pop(-1)
         else:
             stack.append(char)
