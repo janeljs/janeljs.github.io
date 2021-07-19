@@ -29,5 +29,37 @@ def solution(lottos, win_nums):
     if _min == 7:
         _min = 6
 
-    return [_max, _min]
+    return _max, _min
+```
+
+- 다른 사람 풀이 1
+
+```py
+def solution(lottos, win_nums):
+
+    rank=[6,6,5,4,3,2,1]
+
+    # 0이 몇 번 나오는지 count
+    cnt_0 = lottos.count(0)
+    ans = 0
+    for x in win_nums:
+        if x in lottos:
+            ans += 1
+    return rank[cnt_0 + ans], rank[ans]
+```
+
+- 다른 사람 풀이 2
+
+```py
+def solution(lottos, win_nums):
+    rank = {
+        0: 6,
+        1: 6,
+        2: 5,
+        3: 4,
+        4: 3,
+        5: 2,
+        6: 1
+    }
+    return [rank[len(set(lottos) & set(win_nums)) + lottos.count(0)], rank[len(set(lottos) & set(win_nums))]]
 ```
