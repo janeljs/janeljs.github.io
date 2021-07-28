@@ -12,14 +12,14 @@ draft: false
 
 이때, a와 b의 내적은 `a[0]*b[0] + a[1]*b[1] + ... + a[n-1]*b[n-1]` 입니다. (n은 a, b의 길이)
 
-------
+---
 
 ## 제한사항
 
 - a, b의 길이는 1 이상 1,000 이하입니다.
 - a, b의 모든 수는 -1,000 이상 1,000 이하입니다.
 
-------
+---
 
 ## 입출력 예
 
@@ -28,7 +28,7 @@ draft: false
 | `[1,2,3,4]` | `[-3,-1,0,2]` | 3      |
 | `[-1,0,1]`  | `[1,0,-1]`    | -2     |
 
-------
+---
 
 ##### 입출력 예 설명
 
@@ -40,8 +40,8 @@ draft: false
 
 - a와 b의 내적은 `(-1)*1 + 0*0 + 1*(-1) = -2` 입니다.
 
-
 ## 답안
+
 ```py
 def solution(a, b):
     answer = 0
@@ -59,7 +59,8 @@ def solution(a, b):
 
 #
 
-***Source***
+**_Source_**
+
 - https://wikidocs.net/22383
 - https://wikidocs.net/22384
 - https://programmers.co.kr/learn/courses/30/lessons/70128

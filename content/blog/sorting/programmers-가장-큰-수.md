@@ -9,6 +9,7 @@ draft: false
 - https://programmers.co.kr/learn/courses/30/lessons/42746
 
 ## Solution
+
 ```py
 def solution(numbers):
     answer = sorted(numbers, key=lambda x:str(x)*3, reverse=True)
@@ -17,14 +18,15 @@ def solution(numbers):
 ```
 
 - 다른 사람 풀이
+
 ```py
 import functools
 
 def comparator(a,b):
     t1 = a+b
     t2 = b+a
-    #  t1이 크다면 1  // t2가 크다면 -1  //  같으면 0
-    return (int(t1) > int(t2)) - (int(t1) < int(t2)) 
+    #  t1이 크다면 1, t2가 크다면 -1, 같으면 0
+    return (int(t1) > int(t2)) - (int(t1) < int(t2))
 
 def solution(numbers):
     n = [str(x) for x in numbers]
