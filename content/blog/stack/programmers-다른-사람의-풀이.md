@@ -1,5 +1,5 @@
 ---
-title: Programmers 다른 사람의 풀이
+title: Programmers 프린터
 date: 2021-08-01 23:08:11
 category: stack
 thumbnail: { thumbnailSrc }
