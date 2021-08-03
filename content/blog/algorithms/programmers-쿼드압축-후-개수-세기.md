@@ -23,10 +23,11 @@ def solution(arr):
         return [0, 1]
     else:
         n = len(arr) // 2
-        return [sum(i) for i in zip(*[solution([x[:n] for x in arr[:n]]),
-                                      solution([x[n:] for x in arr[:n]]),
-                                      solution([x[:n] for x in arr[n:]]),
-                                      solution([x[n:] for x in arr[n:]])])]
+        return [sum(i) for i in zip(
+            *[solution([x[:n] for x in arr[:n]]),
+              solution([x[n:] for x in arr[:n]]),
+              solution([x[:n] for x in arr[n:]]),
+              solution([x[n:] for x in arr[n:]])])]
 ```
 
 - 다른 사람 풀이
