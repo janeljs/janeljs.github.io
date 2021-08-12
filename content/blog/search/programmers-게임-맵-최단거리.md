@@ -68,6 +68,7 @@ def solution(maps):
             if nx > -1 and ny > -1 and nx < x_h and ny < y_h:
                 if maps[ny][nx] == 1 or maps[ny][nx] > d + 1:
                     maps[ny][nx] = d + 1
+                    # 도착한 시점에 끝내버리자.
                     if nx == x_h - 1 and ny == y_h - 1:
                         return d + 1
 
