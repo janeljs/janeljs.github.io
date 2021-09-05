@@ -51,7 +51,7 @@ def solution(relation):
     return answer
 ```
 
-- 다른 사람 풀이 1
+- 다른 사람 풀이
 
 ```py
 def solution(relation):
