@@ -6,6 +6,8 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
+- https://app.codility.com/programmers/lessons/1-iterations/
+
 ## Soltuion
 
 ```java
