@@ -44,8 +44,7 @@ class Solution {
         {
             if (A[i] <= 0)
                 continue;
-            else if (A[i] == pointer)
-            {
+            else if (A[i] == pointer) {
                 pointer++;
             }
         }
