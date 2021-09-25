@@ -36,3 +36,20 @@ def is_pair(s):
         x = x+1 if w=="(" else x-1 if w==")" else x
     return x==0
 ```
+
+- 풀어쓴 코드
+
+```py
+def solution(s):
+    x = 0
+    for w in s:
+        if x < 0:
+            break
+        if w == "(":
+            x = x + 1
+        elif w == ")":
+            x = x - 1
+        else:
+            continue
+    return x == 0
+```
