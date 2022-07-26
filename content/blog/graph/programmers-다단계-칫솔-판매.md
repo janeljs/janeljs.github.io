@@ -50,7 +50,7 @@ solution(["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"],
          [12, 4, 2, 5, 10])
 ```
 
-- 다른 사람 풀이
+- [다른 사람 풀이](https://www.scaler.com/topics/python/python-if-else-statement/)
   - [Enumerate() in Python](https://www.geeksforgeeks.org/enumerate-in-python/)
 
 ```py
